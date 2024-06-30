@@ -31,3 +31,15 @@ When you have multiple actions:
 - Primary actions should be obvious. Solid, high contrast background colors work great here.
 - Secondary actions should be clear but not prominent. Outline styles or lower contrast background colors are great options.
 - Tertiary actions should be discoverable but unobtrusive. Styling these actions like links is usually the best approach.
+
+# Layout and Spacing:
+
+- For a cleaner design, leave more space between elements.
+- Start giving something way too much space, then remove it until you're happy with the result.
+- Have a system in place for fonts and spacing. 16px is a good start. 4, 8, 12, 16, 24, 32, 48, 64, 96, 128 etc.
+- If you only need 600px of screen, then just use 600px. Keep it clean.
+- Start by designing for mobile. Then bring it over to desktop and adjust.
+- If you want to make better use of the available space, you could break the supporting text out into a separate column.
+- Not all elements have to be scalable. For example, in an interface with a navbar and main content, the navbar doesn't have to scale on all screen sizes; it can have a maximum width, allowing the main content to scale more.
+- Not everything should be relative sized e.g. text and it's headline, using em unit for the headline. Don't be dogmatic about it and don't do this.
+- Border can make it clear how elements are grouped together. If not, you can use spacing, e.g. label and input closer together as a group. This applies to vertical and horizontal spacing.

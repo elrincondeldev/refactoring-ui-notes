@@ -1,1 +1,33 @@
-# refactoring-ui-notes
+# Starting from scratch
+
+- Start with a feature, not a layout. An application consists of several features. Before we start designing where each of these features will go, we need to design the features themselves.
+- At first, don't get obsessed with the details; focus on something functional. Later, you can take care of details like fonts, shadows, icons, etc...
+- Start creating a design in grayscale. Once you have finished, you can introduce colors. This way, you force yourself to use spacing, contrasts, and good sizes to make the design look good.
+- Don't design too much, you don't need to design every single feature before you move on to implementation.
+- Work in cycles, Basically, every time you design a feature, implement it in the code to see how it behaves.
+- Be aware of the difficulty of development; don't design something that you won't be able to develop later.
+- Choose a personality. For example, a bank needs to convey seriousness, security, and professionalism.
+- Typography plays a huge part in determining how a design feels.
+- Choose colors based on what you want your application to convey.
+- Border radius makes it feel more playful and friendly.
+- Texts play an important role in the application's personality.
+- Limit your choices, Measurements, colors, fonts, shadows... will make decision-making easier.
+- You'll want systems for things like: Font size, font weight, line height, color, margin, padding, width, height, box shadows, border radius, border width, opacity...
+
+# Hierarchy is Everything
+
+- When everything in an interface is competing for attention, it feels noisy and chaotic.
+- Size is not everything; to establish a hierarchy, you should also rely on font weight and color.
+- Dark color for primary content, grey for secondary content, and lighter grey for tertiary content.
+- Don't use grey text on colored backgrounds, instead of this, choose a color with the same hue, and adjust the saturation and lightness until it looks right to you.
+- Emphasize the element you want to draw attention de-emphasizing the other elements.
+- You can also combine labels and values into a text to make it easier to read e.g. "12 left in stock" instead of "In Stock: 12"
+- Sometimes the labels are secondary. When this is the case, de-emphasize the labels and emphasize the data.
+- If you are designing an interface where you know the user will be looking for the label, you have to emphasize the label.
+- Don't let semantics dictate your design. h1 doesn't mean it should be big. Sometimes you can just hide it visually and still have it in the DOM because the content speaks for itself.
+
+When you have multiple actions:
+
+- Primary actions should be obvious. Solid, high contrast background colors work great here.
+- Secondary actions should be clear but not prominent. Outline styles or lower contrast background colors are great options.
+- Tertiary actions should be discoverable but unobtrusive. Styling these actions like links is usually the best approach.

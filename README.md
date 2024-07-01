@@ -32,7 +32,7 @@ When you have multiple actions:
 - Secondary actions should be clear but not prominent. Outline styles or lower contrast background colors are great options.
 - Tertiary actions should be discoverable but unobtrusive. Styling these actions like links is usually the best approach.
 
-# Layout and Spacing:
+# Layout and Spacing
 
 - For a cleaner design, leave more space between elements.
 - Start giving something way too much space, then remove it until you're happy with the result.
@@ -43,3 +43,19 @@ When you have multiple actions:
 - Not all elements have to be scalable. For example, in an interface with a navbar and main content, the navbar doesn't have to scale on all screen sizes; it can have a maximum width, allowing the main content to scale more.
 - Not everything should be relative sized e.g. text and it's headline, using em unit for the headline. Don't be dogmatic about it and don't do this.
 - Border can make it clear how elements are grouped together. If not, you can use spacing, e.g. label and input closer together as a group. This applies to vertical and horizontal spacing.
+
+# Designing Text
+
+- Don't use too many font sizes. Use a scale and have a system in place. This leads to consistency and design is easier.
+- Stick to px or rem units, it's the only way to guarantee you're actually sticking to the system.
+- Choose a font is hard, Helvetica it's a good start point.
+- As general rule, ignore typefaces with less than five weights.
+- Avoid use condensed typefaces with short x-heights for your main UI text.
+- Inspect some of your favorite sites and see what typefaces they are using.
+- For the best reading experiencie, make your paragraphs wide enough to fit between 45 and 75 characters per line. A width of 20-35em will get you in the right ballpark.
+- Your line-height and paragraph width should be proportional.
+- Line-height and font size are iversely proportional.
+- Not every link needs a color, you can just use a heavier font weight or darker color instead a blue color.
+- Don't center long form text.
+- You should trust the typeface designer and leave letter-spacing alone.
+- 

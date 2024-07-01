@@ -58,4 +58,48 @@ When you have multiple actions:
 - Not every link needs a color, you can just use a heavier font weight or darker color instead a blue color.
 - Don't center long form text.
 - You should trust the typeface designer and leave letter-spacing alone.
-- 
+
+# Working with color
+
+- HSL is the best color format. It's easy to adjust colors and it's easy to understand. Representing colors: hue, saturation, lightness.
+- You can't build anything with five hex codes, you need a much more comprehensive set of colors to choose from.
+- Greys, for the text, backgrounds, panels and form controls.
+- Primary colors, for primary actions, active navigations elements, etc...
+- Accent colors, for communicate different things to the user.
+- Define a fixed set of shades up front that you can choose from as you work.
+- The darkest shade of a color is usually reserved for text, while the lightest shade might be used to tint the background of an element.
+- If you want to change how light colors look, adjust the lightness. If you want to change how colorful it is, adjust the saturation.
+- To make a color lighter, rotate the hue towards the nearest bright hue
+- To make a color darker, rotate the hue towards the nearest dark hue
+- Don’t rotate the hue more than 20-30° or it will look like a totally different color instead of just lighter or darker.
+- Saturating greys: Feel cool, saturate them with blue. Warm, saturate them with some yellow or orange.
+- Flipping the contrast, use dark colored text on a light colored background.
+- You don’t want the primary text and the secondary text to look the same, one way to increase the contrast without getting closer to white is to rotate the hue towards a brighter color, like cyan, magenta, or yellow.
+- Always use color to support something that your design is already saying; never use it as the only means of communication.
+
+# Creating Depth
+
+- Light comes from above. To make something feel like its lifted, add a shadow on the bottom.
+- To make something feel like it's pressed, add a shadow on the top. You can use inset box shadow here, and another grey shadow at the bottom.
+- You might use a smaller shadow for something like a button, where you want the user to notice it.
+- Medium shadows are useful for things like dropdowns,
+- Large shadows are great for modal dialogs, where you really want to capture the user’s attention.
+- Combining shadows make them look more natural.
+- Make an element lighter than the background color to make it feel like it’s raised off of the page, or darker than the background color if you want it to feel inset.
+
+# Working with images
+
+- Bad photos will ruin a design, even if everything else about it looks great.
+- One way to increase the overall text contrast is to add a semi-transparent overlay to the background image.
+- Icons that were drawn at 16–24px are never going to look very professional when you blow them up to 3x or 4x their intended size. If small icons are all you’ve got, try enclosing them inside another shape and giving the shape a background color.
+- Don't scale down screenshots, if you want to include a detailed screenshot in your design, take the screenshot at a smaller screen size (like maybe your tablet layout).
+- If you really need to fit a whole-app screenshot in a tight space, try drawing a simplified version of the UI with details removed.
+
+# Finishing Touches
+
+- Supercharge the defaults: bulletpoints, checkboxes, radio buttons, etc.
+- Add color with accent borders.
+- One way to add some excitement to a background is to simply change the color.
+- Decorate your backgrounds with gradients, patterns, etc.
+- If you’re designing something that depends on user-generated content, the empty state should be a priority, not an afterthought.
+- There’s no point in presenting a bunch of actions that don’t do anything until the user has created some content.
